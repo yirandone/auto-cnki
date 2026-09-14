@@ -1,4 +1,4 @@
-# auto-cnki
+# journal-daily-digest
 
 > 📚 **新闻传播学每日文献推送工具** —— 每天自动从知网（CNKI）检索指定期刊与议题的文献，
 > 用 AI 精选 3 篇，附关键词、摘要与推荐理由，发送到你的邮箱。
@@ -161,7 +161,7 @@ uv run python daily_digest.py
 ## 📁 项目结构
 
 ```
-auto-cnki/
+journal-daily-digest/
 ├── daily_digest.py         # 主脚本
 ├── .env                    # 密钥配置（已 gitignore，不上传）
 ├── .env.example            # 密钥配置示例（占位符）
